@@ -358,11 +358,11 @@
   }
 }
 .pricingTable-firstTable_table__options > li:before {
-  content: "✓";
+  
   display: inline-flex;
   margin-right: 15px;
   color: white;
-  background-color: #82AAE3;
+
   border-radius: 50%;
   width: 15px;
   height: 15px;
@@ -370,6 +370,14 @@
   padding: 2px;
   align-items: center;
   justify-content: center;
+} 
+.tick:before{
+  content: "\2713";
+  background-color: #82AAE3;
+}
+.cross:before{
+  content: "\00d7";
+  background-color: red;
 }
 @media screen and (max-width: 1068px) {
   .pricingTable-firstTable_table__options > li:before {
