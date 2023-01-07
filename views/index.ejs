@@ -1,124 +1,134 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home_Page</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0s-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link rel="stylesheet" href="../css/index.css">
-
+    <title>student/teacher</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="public\css\index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg " style="background-color:#82AAE3; height: 55px; ">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: white;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;">Facilities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" style="color: white;">
+                            Login
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Student</a></li>
+                            <li><a class="dropdown-item" href="#">Faculty</a></li>
+                            <li><a class="dropdown-item" href="#">Others</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-  <nav class="navbar navbar-expand-lg " style="background-color:#82AAE3; height: 45px; ">
-    <div class="container-fluid">
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Facilities</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Login
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Student</a></li>
-              <li><a class="dropdown-item" href="#">Faculty</a></li>
-              <li><a class="dropdown-item" href="#">Others</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+    <div class="flex-container">
+        <div class="top-img">
+            <img src="..\assets\img\Capture2.PNG">
+        </div>
+        <div class="flex-container top-text">
+            <p class="top-text"> A way to reach
+                to your students
+                in a
+                way that is convenient to both staff and students making the daily
+                activities of an institute easier to manage.<br><br>
+                <button type="button" class="btn"
+                    style="--bs-btn-padding-y: 0.5rem; margin-left:26%; margin-top: 45px;color: white;
+                     --bs-btn-padding-x: 4rem; --bs-btn-font-size: 1rem; background-color:#82AAE3;border-radius: 300px;"
+                    onClick="window.location.href='/signup'">
+                    Sign Up
+                </button>
+            </p>
+        </div>
     </div>
-  </nav>
 
-  <section class="top">
-    <div class="div1"> <img src="../assets/img/Capture2.PNG" style=" height:500px; width:500px;"></div>
+    <div class="card-group" id="hy" style="padding-bottom: 10%;">
+        <div class="card" style=" border: none;">
+            <img src="../assets/img/work1.jpg" class="card-img-top" alt="..."
+                style="height: 250px; width: 250px; margin-left: 30px;">
+            <div class="card-body">
+                <h5 class="card-title">Attendance</h5>
+                <p class="card-text"> Tool which helps organisations manage their attendance.</p>
 
+            </div>
+        </div>
+        <div class="card" style=" border: none;">
+            <img src="../assets/img/work2.jpg" class="card-img-top" alt="..."
+                style="height: 250px; width: 250px; margin-left: 40px;">
+            <div class="card-body">
+                <h5 class="card-title">Assignments</h5>
+                <p class="card-text">Tool which lets you upload assignment at one place</p>
 
-    <div class="div2">
-      <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> A way to reach to your students in a
-        way that is convenient to both staff and students making the daily
-        activities of an institute easier to manage.</h4><br>
-      <button type="button" class="btn" style="--bs-btn-padding-y: 0.7rem; margin-left: 150px; margin-top: 45px;color: white;
-             --bs-btn-padding-x: 4rem; --bs-btn-font-size: 1rem; background-color:#82AAE3;border-radius: 300px;" onClick="window.location.href='/signup'">
-        Sign Up
-      </button>
+            </div>
+        </div>
+        <div class="card" style=" border: none;">
+            <img src="../assets/img/work3.jpg" class="card-img-top" alt="..."
+                style="height: 250px; width: 250px; margin-left: 40px;">
+            <div class="card-body">
+                <h5 class="card-title">Announcements</h5>
+                <p class="card-text">Let your students have a dashboard so, they don't have to dive in a pool of trash
+                    messages to reach the actual one</p>
+            </div>
+        </div>
     </div>
-  </section>
 
 
-  
+    <div class="card-group">
+        <div class="card" style=" border: none;">
+            <img src="../assets/img/work6.jpg" class="card-img-top" alt="..."
+                style="height: 250px; width: 250px; margin-left: 40px;">
+            <div class="card-body">
+                <h5 class="card-title" style="margin-left: 90px;">Resources</h5>
+                <p class="card-text">No longer searching here and there for respurces, have them all at one place.</p>
 
-  <div class="card-group" style="padding-bottom: 0%;">
-    <div class="card" style=" border: none;">
-      <img src="../assets/img/work1.jpg" class="card-img-top" alt="..." style="height: 250px; width: 250px; margin-left: 40px;">
-      <div class="card-body">
-        <h5 class="card-title">Attendance</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
+            </div>
+        </div>
+        <div class="card" style=" border: none;">
+            <img src="../assets/img/work5.jpg" class="card-img-top" alt="..."
+                style="height: 250px; width: 250px; margin-left: 40px;">
+            <div class="card-body">
+                <h5 class="card-title" style="margin-left: 60px;">Feedback System</h5>
+                <p class="card-text" style="margin-left: 30px;">Coming soon..</p>
+
+            </div>
+        </div>
+        <div class="card" style=" border: none;">
+            <img src="../assets/img/work6.jpg" class="card-img-top" alt="..." style="height: 250px; width: 250px;">
+            <div class="card-body">
+                <h5 class="card-title"> Tests</h5>
+                <p class="card-text">Coming soon..</p>
+
+            </div>
+        </div>
     </div>
-    <div class="card" style=" border: none;">
-      <img src="../assets/img/work2.jpg" class="card-img-top" alt="..." style="height: 250px; width: 250px; margin-left: 40px;">
-      <div class="card-body">
-        <h5 class="card-title">Assignments</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card" style=" border: none;">
-      <img src="../assets/img/work3.jpg" class="card-img-top" alt="..." style="height: 250px; width: 250px; margin-left: 40px;">
-      <div class="card-body">
-        <h5 class="card-title">Announcements</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div>
 
+    <div class="bottom">
 
-  <div class="card-group" >
-    <div class="card" style=" border: none;">
-      <img src="../assets/img/work6.jpg" class="card-img-top" alt="..." style="height: 250px; width: 250px; margin-left: 40px;">
-      <div class="card-body">
-        <h5 class="card-title">Resources</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
     </div>
-    <div class="card" style=" border: none;">
-      <img src="../assets/img/work5.jpg" class="card-img-top" alt="..." style="height: 250px; width: 250px; margin-left: 40px;">
-      <div class="card-body">
-        <h5 class="card-title">Feedback System</h5>
-        <p class="card-text">Coming soon..</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card" style=" border: none;">
-      <img src="../assets/img/work6.jpg" class="card-img-top" alt="..." style="height: 250px; width: 250px;">
-      <div class="card-body">
-        <h5 class="card-title"> Tests</h5>
-        <p class="card-text">Coming soon..</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 
-
+    <script src="js/navbar.js"></script>
 </body>
 
 </html>
