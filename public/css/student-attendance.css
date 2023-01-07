@@ -1,3 +1,7 @@
+body{
+    height: 10vh;
+    overflow-x:hidden;
+}
 .container{
     width: 320px;
     padding: 10px;
@@ -6,4 +10,8 @@
 }
 .progress{
     margin: 200px 300px 50px;
+}
+
+.box-main{
+    margin-top: 35%;
 }

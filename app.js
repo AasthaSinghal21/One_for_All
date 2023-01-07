@@ -39,6 +39,10 @@ app.get("/pricing",function(req,res)
 {
     res.render("pricing");
 })
+app.get("/nav",function(req,res)
+{
+    res.render("navbar-student");
+})
 app.get("/teacher-login",function(req,res)
 {
     res.render("teacher-login");
