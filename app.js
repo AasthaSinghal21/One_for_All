@@ -46,7 +46,12 @@ app.get("/teacher-login",function(req,res)
 app.get("/announcement-teacher",function(req,res)
 {
     res.render("announcement-teacher");
+})
+app.get("/announcement-student",function(req,res)
+{
+    res.render("announcement-student");
 });
+
 app.post("/login",function(req,res)
 {
     res.redirect("/student-assignment");
