@@ -19,7 +19,7 @@ app.get("/test",function(req,res)
 {
     res.render("test-centre");
 });
-app.get("/techer-attendance",function(req,res)
+app.get("/teacher-attendance",function(req,res)
 {
     res.render("teacher-attendance");
 });
