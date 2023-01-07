@@ -47,6 +47,10 @@ app.get("/announcement-teacher",function(req,res)
 {
     res.render("announcement-teacher");
 })
+app.get("/student-list",function(req,res)
+{
+    res.render("student-list");
+})
 app.get("/announcement-student",function(req,res)
 {
     res.render("announcement-student");
