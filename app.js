@@ -42,6 +42,10 @@ app.get("/pricing",function(req,res)
 app.get("/teacher-login",function(req,res)
 {
     res.render("teacher-login");
+})
+app.get("/announcement-teacher",function(req,res)
+{
+    res.render("announcement-teacher");
 });
 app.post("/login",function(req,res)
 {
