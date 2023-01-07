@@ -9,37 +9,37 @@
     <body>
       <nav class="navbar navbar-expand-lg background navbar-dark navstick">
         <div class="container">
-        <input type="radio" name="s" id="assignment" checked>
-        <input type="radio" name="s" id="attendance">
-        <input type="radio" name="s" id="announcement">
-        <input type="radio" name="s" id="resources">
-        <input type="radio" name="s" id="testcentre">
-        <input type="radio" name="s" id="profile">
+              <input type="button" value="assignment" checked>  
+              <input type="button" value="attendance">
+              <input type="button" value="announcement">
+              <input type="button" value="resources">
+              <input type="button" value="testcentre">
+              <input type="button" value="profile">
+        
         <nav>
-            <div class="slider"></div>
-            <label class="assignment" for="assignment" >
+            
+            <button id="assignmnet" onClick="window.location.href='/student-assignment'">
                 Assignment
-            </label>
-            <label class="attendance" for="attendance" href="/student-attendance">
+            </button>
+            <button id="attendance" onClick="window.location.href='/student-attendance'">
                 Attendance
-            </label>
-            <label class="announcement" for="announcement">
+            </button>
+            <button id="announcement" onClick="window.location.href=''">
                 Announcement
-            </label>
-            <label class="resources" for="resources">
+            </button>
+            <button id="resources" onClick="window.location.href='/student-resources'">
                 Resources
-            </label>
-            <label class="testcentre" for="testcentre">
+            </button>
+            <button id="testcentre" onClick="window.location.href='/test'">
                 Test Centre
-            </label>
-            <label class="profile" for="profile">
+            </button>
+            <button id="profile" onClick="window.location.href=''">
                 Profile
-            </label>
+            </button>
+            <div class="slider"></div>
         </nav>
     </div>
-    <div>
-        <img src="" alt="">
-    </div>
       </nav>
+      <script src="js/navbar.js"></script>
     </body>
 </html>
