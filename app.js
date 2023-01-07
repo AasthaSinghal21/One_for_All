@@ -38,6 +38,10 @@ app.get("/student-assignment",function(req,res)
 app.get("/pricing",function(req,res)
 {
     res.render("pricing");
+})
+app.get("/teacher-login",function(req,res)
+{
+    res.render("teacher-login");
 });
 app.post("/login",function(req,res)
 {
